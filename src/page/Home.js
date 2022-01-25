@@ -25,7 +25,7 @@ export const Home = () => {
           </li>
           <li>
             <a href="/work/02" style={linkStyle}>
-              <h3>02 Note Management Website</h3>
+              <h3>02 Note Management System</h3>
             </a>
           </li>
           <li>

@@ -11,8 +11,8 @@ export const About = () => {
       <h1>About</h1>
       <div style={{ width: "60%", textAlign: "justify" }}>
         <h3>
-          Hi, I'm Jacqueline, a self-taught frontend developer based in
-          Brisbane, Australia.
+          Hi, I'm Jacqueline, a self-taught web developer based in Brisbane,
+          Australia.
         </h3>
         <br />
         <p>
@@ -25,17 +25,16 @@ export const About = () => {
         <p>
           With the knowledge of UX design and having a background of Mechanical
           Engineer, I started considering being a web developer. Since the last
-          few months of 2011, I have been self-taught by doing online courses on
-          CodeCademy and FreeCodeCamp related to frontend and backend
-          development, and building projects to dive into what I learned and
-          hone my skills.
+          few months of 2021, I have been self-taught by doing frontend and
+          backend development courses on CodeCademy and FreeCodeCamp , and
+          building projects to dive into what I learned and hone my skills.
         </p>
       </div>
 
       <button>
         <a
           className="download"
-          href="/images/Resume_Jacqueline_2022.pdf"
+          href="https://drive.google.com/file/d/1Wvl2I-TEMJxnQ9RjsHqroddjAF43-ZA0/view?usp=sharing"
           download="Jacqueline_resume"
         >
           Download Resume
@@ -55,13 +54,14 @@ export const About = () => {
               </p>
               <div>
                 <h4>Language</h4>
-                <p>JavaScript (ES6+), HTML, CSS/Sass</p>
+                <p>JavaScript (ES6+), HTML, CSS, Python, PHP, C</p>
                 <h4>Frameworks and Libraries</h4>
-                <p>React, Node.js,Bootstrap, Tailwind Css, MUI, Ant-Design</p>
-                <h4>Platform</h4>
-                <p>Git/Github, Heroku, WordPress</p>
-                <h4>Back-end</h4>
-                <p>MongoDB, Express</p>
+                <p>
+                  React, Redux, Node.js,MongoDB, Express, Bootstrap, Tailwind
+                  Css, Material Design, Ant-Design
+                </p>
+                <h4>Tools and Platform</h4>
+                <p>Git/Github, Heroku, WordPress, Google Analytics</p>
               </div>
             </div>
             <div className="subcontent">
@@ -74,7 +74,7 @@ export const About = () => {
                 <h4>Graphic Design</h4>
                 <p>Illustrator, InDesign</p>
                 <h4>Methods</h4>
-                <p>User Research, Usability Testing</p>
+                <p>User Research, Usability Testing, Prototyping</p>
               </div>
             </div>
           </div>
@@ -98,11 +98,13 @@ export const About = () => {
             </div>
             <div className="subcontent">
               <p style={titleStyle}>
-                <strong>Cocademy</strong>
+                <strong>CodeCademy / Google Academy</strong>
               </p>
               <div>
+                <p>Intermediate JavaScript</p>
                 <p>Front-End Engieer</p>
                 <p>Typescript</p>
+                <p>Advanced Google Analytics</p>
               </div>
             </div>
           </div>
@@ -118,18 +120,19 @@ export const About = () => {
                 <strong>Front End</strong>
               </p>
               <div>
-                <p>Book Store Website</p>
-                <p>Note Taking Web App</p>
-                <p>Portfoilo Website</p>
                 <p>FreeCodeCamp Front End Libraries Projects</p>
+                <p>Portfoilo Website</p>
+                <p>To Do List Web App</p>
               </div>
             </div>
             <div className="subcontent">
               <p style={titleStyle}>
-                <strong>Back End</strong>
+                <strong>Front End + Back End</strong>
               </p>
               <div>
                 <p>FreeCodeCamp APIs and Microservices Projects</p>
+                <p>Note Management Web App</p>
+                <p>Book Store Website</p>
               </div>
             </div>
           </div>

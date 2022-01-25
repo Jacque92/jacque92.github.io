@@ -6,41 +6,35 @@ import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <header className="header">
-      <img src={logo} alt="logo" height="40" width="40"></img>
+      <Link to="/">
+        <img src={logo} alt="logo" height="40" width="40"></img>
+      </Link>
       <nav>
         <ul>
-          <li>
-            <Link to="/" style={{ textDecoration: "none" }}>
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="/work" style={{ textDecoration: "none", color: "black" }}>
-              Work
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/about"
-              style={{ textDecoration: "none", color: "black" }}
-            >
-              About
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/contact"
-              style={{ textDecoration: "none", color: "black" }}
-            >
-              Contact
-            </Link>
-          </li>
+          <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+            <li>Home </li>
+          </Link>
+
+          <Link to="/work" style={{ textDecoration: "none", color: "black" }}>
+            <li> Work </li>
+          </Link>
+
+          <Link to="/about" style={{ textDecoration: "none", color: "black" }}>
+            <li>About </li>
+          </Link>
+
+          <Link
+            to="/contact"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <li> Contact </li>
+          </Link>
         </ul>
         <div className="socialLink">
           <a href="https://www.linkedin.com/in/tiexin-zhang-480283190/">
             <img src={linkedin} alt="linkedin" height="28" width="28"></img>
           </a>
-          <a href="https://github.com/Jacque92">
+          <a href="mailto:jacquelinezhang92@gmail.com">
             <img src={send} alt="send" height="28" width="28"></img>
           </a>
         </div>

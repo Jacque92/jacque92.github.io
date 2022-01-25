@@ -1,5 +1,6 @@
 import React from "react";
 import { BookStore } from "../projects/BookStore";
+import { NoteManage } from "../projects/NoteManage";
 import { Frontend } from "../projects/Frontend";
 import { Backend } from "../projects/Backend";
 import { useParams } from "react-router";
@@ -26,9 +27,9 @@ export const SingleProject = (props) => {
             <a href={projectData[id].liveLink}>
               <button>Live</button>
             </a>
-            {/* <Link to={`/work/${id}`}> */}
-            <button>Github</button>
-            {/* </Link> */}
+            <a href={projectData[id].GithubLink}>
+              <button>Github</button>
+            </a>
           </div>
         </div>
         <div className="workPicBox">
@@ -38,7 +39,7 @@ export const SingleProject = (props) => {
       {id === "01" ? (
         <BookStore />
       ) : id === "02" ? (
-        <Frontend />
+        <NoteManage />
       ) : id === "03" ? (
         <Frontend />
       ) : id === "04" ? (

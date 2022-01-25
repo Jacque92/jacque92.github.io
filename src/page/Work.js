@@ -9,7 +9,7 @@ export const Work = () => {
         Selected <br />
         Works
       </h1>
-      <h3>I hone my programing skills by doing various projects</h3>
+      <h3>I learn and hone programing knowledge and skills by doing.</h3>
       <section>
         {Object.keys(projectData).map((projectKey) => {
           return (

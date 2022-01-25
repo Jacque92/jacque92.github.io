@@ -12,20 +12,13 @@ export const SingleWork = ({ projectInfo, id }) => {
       <div className="singleWorkDescription">
         <h3>{name}</h3>
         <div className="workPicBox" style={{ position: "relative" }}>
-          <a
-            href={
-              "https://github.com/Jacque92/book-store/blob/master/src/app/App.js"
-            }
-          >
+          <Link to={`/work/${id}`}>
             <img src={img} alt="work" />
-          </a>
+          </Link>
           <div className="live_detail_btn">
             <a href={liveLink}>
               <button>Live</button>
             </a>
-            {/* <a href={githubLink}>
-              <button>Github</button>
-            </a> */}
             <Link to={`/work/${id}`}>
               <button>Details</button>
             </Link>
