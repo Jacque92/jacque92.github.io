@@ -42,7 +42,7 @@ export const Frontend = () => {
               }}
             >
               <img
-                src="../../public/images/quotemachine.png"
+                src="../images/quotemachine.png"
                 style={{ width: "100%" }}
               ></img>
             </div>
@@ -68,7 +68,7 @@ export const Frontend = () => {
               }}
             >
               <img
-                src="../../public/images/previewer.png"
+                src="../images/previewer.png"
                 style={{ width: "100%" }}
               ></img>
             </div>
@@ -98,10 +98,7 @@ export const Frontend = () => {
                 border: "1px solid black",
               }}
             >
-              <img
-                src="../../public/images/drum.png"
-                style={{ width: "100%" }}
-              ></img>
+              <img src="../images/drum.png" style={{ width: "100%" }}></img>
             </div>
           </div>
           <div className="feature">
@@ -122,7 +119,7 @@ export const Frontend = () => {
               }}
             >
               <img
-                src="../../public/images/calculator.png"
+                src="../images/calculator.png"
                 style={{ width: "100%" }}
               ></img>
             </div>
@@ -151,10 +148,7 @@ export const Frontend = () => {
                 border: "1px solid black",
               }}
             >
-              <img
-                src="../../public/images/clock.png"
-                style={{ width: "100%" }}
-              ></img>
+              <img src="../images/clock.png" style={{ width: "100%" }}></img>
             </div>
           </div>
         </div>

@@ -25,10 +25,7 @@ export const BookStore = () => {
                 border: "1px solid black",
               }}
             >
-              <img
-                src="../../public/images/book.png"
-                style={{ width: "100%" }}
-              ></img>
+              <img src="./images/book.png" style={{ width: "100%" }}></img>
             </div>
           </div>
           <div className="feature">
@@ -41,10 +38,7 @@ export const BookStore = () => {
                 border: "1px solid black",
               }}
             >
-              <img
-                src="../../public/images/login.png"
-                style={{ width: "100%" }}
-              ></img>
+              <img src="./images/login.png" style={{ width: "100%" }}></img>
             </div>
           </div>
           <div className="feature">
@@ -57,10 +51,7 @@ export const BookStore = () => {
                 overflow: "hidden",
               }}
             >
-              <img
-                src="../../public/images/sort.png"
-                style={{ height: "100%" }}
-              ></img>
+              <img src="./images/sort.png" style={{ height: "100%" }}></img>
             </div>
           </div>
           <div className="feature">
@@ -73,10 +64,7 @@ export const BookStore = () => {
                 border: "1px solid black",
               }}
             >
-              <img
-                src="../../public/images/cart.png"
-                style={{ height: "100%" }}
-              ></img>
+              <img src="./images/cart.png" style={{ height: "100%" }}></img>
             </div>
           </div>
           <div className="feature">
@@ -89,10 +77,7 @@ export const BookStore = () => {
                 border: "1px solid black",
               }}
             >
-              <img
-                src="../../public/images/search.png"
-                style={{ height: "100%" }}
-              ></img>
+              <img src="./images/search.png" style={{ height: "100%" }}></img>
             </div>
           </div>
         </div>

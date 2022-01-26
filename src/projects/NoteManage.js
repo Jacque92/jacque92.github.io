@@ -39,10 +39,7 @@ export const NoteManage = () => {
                 border: "1px solid black",
               }}
             >
-              <img
-                src="../../public/images/newNote.png"
-                style={{ width: "100%" }}
-              ></img>
+              <img src="./images/newNote.png" style={{ width: "100%" }}></img>
             </div>
           </div>
           <div className="feature">
@@ -70,7 +67,7 @@ export const NoteManage = () => {
               }}
             >
               <img
-                src="../../public/images/chooseview.png"
+                src="./images/chooseview.png"
                 style={{ width: "100%" }}
               ></img>
             </div>
@@ -93,10 +90,7 @@ export const NoteManage = () => {
                 border: "1px solid black",
               }}
             >
-              <img
-                src="../../public/images/oneNote.png"
-                style={{ width: "100%" }}
-              ></img>
+              <img src="./images/oneNote.png" style={{ width: "100%" }}></img>
             </div>
           </div>
         </div>
