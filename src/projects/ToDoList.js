@@ -34,7 +34,7 @@ export const ToDoList = () => {
                 border: "1px solid black",
               }}
             >
-              <img src="./images/todolist.png" style={{ width: "100%" }}></img>
+              <img src="../images/todolist.png" style={{ width: "100%" }}></img>
             </div>
           </div>
         </div>

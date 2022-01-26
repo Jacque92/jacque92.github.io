@@ -3,7 +3,7 @@ export const Header = () => {
   return (
     <header className="header">
       <Link to="/">
-        <img src="./images/logo.png" alt="logo" height="40" width="40"></img>
+        <img src="../images/logo.png" alt="logo" height="40" width="40"></img>
       </Link>
       <nav>
         <ul>
