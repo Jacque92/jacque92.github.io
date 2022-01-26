@@ -1,9 +1,4 @@
 import React from "react";
-import quotemachine from "../images/quotemachine.png";
-import previewer from "../images/previewer.png";
-import drum from "../images/drum.png";
-import calculator from "../images/calculator.png";
-import clock from "../images/clock.png";
 
 export const Frontend = () => {
   return (
@@ -46,7 +41,10 @@ export const Frontend = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={quotemachine} style={{ width: "100%" }}></img>
+              <img
+                src="../../public/images/quotemachine.png"
+                style={{ width: "100%" }}
+              ></img>
             </div>
           </div>
           <div className="feature">
@@ -69,7 +67,10 @@ export const Frontend = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={previewer} style={{ width: "100%" }}></img>
+              <img
+                src="../../public/images/previewer.png"
+                style={{ width: "100%" }}
+              ></img>
             </div>
           </div>
           <div className="feature">
@@ -97,7 +98,10 @@ export const Frontend = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={drum} style={{ width: "100%" }}></img>
+              <img
+                src="../../public/images/drum.png"
+                style={{ width: "100%" }}
+              ></img>
             </div>
           </div>
           <div className="feature">
@@ -117,7 +121,10 @@ export const Frontend = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={calculator} style={{ width: "100%" }}></img>
+              <img
+                src="../../public/images/calculator.png"
+                style={{ width: "100%" }}
+              ></img>
             </div>
           </div>
           <div className="feature">
@@ -144,7 +151,10 @@ export const Frontend = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={clock} style={{ width: "100%" }}></img>
+              <img
+                src="../../public/images/clock.png"
+                style={{ width: "100%" }}
+              ></img>
             </div>
           </div>
         </div>

@@ -1,9 +1,4 @@
 import React from "react";
-import timestamp from "../images/timestamp.png";
-import requestheader from "../images/requestheader.png";
-import urlshortener from "../images/urlshortener.png";
-import exercisetracker from "../images/exercisetracker.png";
-import metadata from "../images/metadata.png";
 
 export const Backend = () => {
   return (
@@ -42,7 +37,10 @@ export const Backend = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={timestamp} style={{ width: "100%" }}></img>
+              <img
+                src="../../public/images/timestamp.png"
+                style={{ width: "100%" }}
+              ></img>
             </div>
           </div>
           <div className="feature">
@@ -65,7 +63,10 @@ export const Backend = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={requestheader} style={{ width: "100%" }}></img>
+              <img
+                src="../../public/images/requestheader.png"
+                style={{ width: "100%" }}
+              ></img>
             </div>
           </div>
           <div className="feature">
@@ -89,7 +90,10 @@ export const Backend = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={urlshortener} style={{ width: "100%" }}></img>
+              <img
+                src="../../public/images/urlshortener.png"
+                style={{ width: "100%" }}
+              ></img>
             </div>
           </div>
           <div className="feature">
@@ -112,7 +116,10 @@ export const Backend = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={exercisetracker} style={{ width: "100%" }}></img>
+              <img
+                src="../../public/images/exercisetracker.png"
+                style={{ width: "100%" }}
+              ></img>
             </div>
           </div>
           <div className="feature">
@@ -135,19 +142,14 @@ export const Backend = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={metadata} style={{ width: "100%" }}></img>
+              <img
+                src="../../public/images/metadata.png"
+                style={{ width: "100%" }}
+              ></img>
             </div>
           </div>
         </div>
       </div>
-      {/* <div className="techniques part">
-            <h2>techniques</h2>
-            <p>
-              This project was built aming to put theory into practice by making a
-              "real-world" application with React for frontend, Redux for state
-              management, MongoDB for database.
-            </p>
-          </div> */}
     </div>
   );
 };

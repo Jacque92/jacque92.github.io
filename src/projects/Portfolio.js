@@ -1,5 +1,4 @@
 import React from "react";
-import todo from "../images/todo.png";
 
 export const Portfolio = () => {
   return (

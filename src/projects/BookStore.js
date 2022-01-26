@@ -1,9 +1,4 @@
 import React from "react";
-import search from "../images/search.png";
-import sort from "../images/sort.png";
-import login from "../images/login.png";
-import cart from "../images/cart.png";
-import book from "../images/book.png";
 
 export const BookStore = () => {
   return (
@@ -30,7 +25,10 @@ export const BookStore = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={book} style={{ width: "100%" }}></img>
+              <img
+                src="../../public/images/book.png"
+                style={{ width: "100%" }}
+              ></img>
             </div>
           </div>
           <div className="feature">
@@ -43,7 +41,10 @@ export const BookStore = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={login} style={{ width: "100%" }}></img>
+              <img
+                src="../../public/images/login.png"
+                style={{ width: "100%" }}
+              ></img>
             </div>
           </div>
           <div className="feature">
@@ -56,7 +57,10 @@ export const BookStore = () => {
                 overflow: "hidden",
               }}
             >
-              <img src={sort} style={{ height: "100%" }}></img>
+              <img
+                src="../../public/images/sort.png"
+                style={{ height: "100%" }}
+              ></img>
             </div>
           </div>
           <div className="feature">
@@ -69,7 +73,10 @@ export const BookStore = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={cart} style={{ height: "100%" }}></img>
+              <img
+                src="../../public/images/cart.png"
+                style={{ height: "100%" }}
+              ></img>
             </div>
           </div>
           <div className="feature">
@@ -82,19 +89,14 @@ export const BookStore = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={search} style={{ height: "100%" }}></img>
+              <img
+                src="../../public/images/search.png"
+                style={{ height: "100%" }}
+              ></img>
             </div>
           </div>
         </div>
       </div>
-      {/* <div className="techniques part">
-        <h2>techniques</h2>
-        <p>
-          This project was built aming to put theory into practice by making a
-          "real-world" application with React for frontend, Redux for state
-          management, MongoDB for database.
-        </p>
-      </div> */}
     </div>
   );
 };

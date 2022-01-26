@@ -1,7 +1,5 @@
 import React from "react";
-import oneNote from "../images/oneNote.png";
-import chooseView from "../images/chooseview.png";
-import newNote from "../images/newNote.png";
+
 export const NoteManage = () => {
   return (
     <div className="project_main">
@@ -41,7 +39,10 @@ export const NoteManage = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={newNote} style={{ width: "100%" }}></img>
+              <img
+                src="../../public/images/newNote.png"
+                style={{ width: "100%" }}
+              ></img>
             </div>
           </div>
           <div className="feature">
@@ -68,7 +69,10 @@ export const NoteManage = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={chooseView} style={{ width: "100%" }}></img>
+              <img
+                src="../../public/images/chooseview.png"
+                style={{ width: "100%" }}
+              ></img>
             </div>
           </div>
           <div className="feature">
@@ -89,7 +93,10 @@ export const NoteManage = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={oneNote} style={{ width: "100%" }}></img>
+              <img
+                src="../../public/images/oneNote.png"
+                style={{ width: "100%" }}
+              ></img>
             </div>
           </div>
         </div>

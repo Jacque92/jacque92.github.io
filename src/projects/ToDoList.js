@@ -1,5 +1,4 @@
 import React from "react";
-import todolist from "../images/todolist.png";
 
 export const ToDoList = () => {
   return (
@@ -35,7 +34,10 @@ export const ToDoList = () => {
                 border: "1px solid black",
               }}
             >
-              <img src={todolist} style={{ width: "100%" }}></img>
+              <img
+                src="../../public/images/todolist.png"
+                style={{ width: "100%" }}
+              ></img>
             </div>
           </div>
         </div>
