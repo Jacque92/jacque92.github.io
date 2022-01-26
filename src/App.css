@@ -7,11 +7,7 @@ body {
   background-color: #f2eadf;
   color: #5a4a42;
 }
-/* font-family: 'Cormorant Infant', serif;
-font-family: 'Jost', sans-serif;
-font-family: 'Julius Sans One', sans-serif;
-font-family: 'Marcellus SC', serif;
-font-family: 'Quicksand', sans-serif; */
+
 header {
   width: 100%;
   padding: 40px 80px;
@@ -209,12 +205,8 @@ header ul li a {
   position: absolute;
   right: 0;
   bottom: 0;
-  opacity: 0;
 }
-.workPicBox:hover .live_detail_btn {
-  opacity: 100%;
-  transition: opacity 0.5s;
-}
+
 .live_detail_btn button {
   padding: 0.8rem 1.6rem;
   margin: 0rem 1rem 1rem 0rem;

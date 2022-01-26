@@ -14,7 +14,6 @@ function App() {
         <Routes>
           <Route path="/work" element={<Work />}></Route>
           <Route path="/work/:id" element={<SingleProject />}></Route>
-
           <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/" element={<Home />}></Route>

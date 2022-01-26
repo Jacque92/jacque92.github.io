@@ -6,12 +6,14 @@ import { Backend } from "../projects/Backend";
 import { useParams } from "react-router";
 import { projectData } from "../projectData";
 import { Link } from "react-router-dom";
+import { ToDoList } from "../projects/ToDoList";
+import { Portfolio } from "../projects/Portfolio";
 
 export const SingleProject = (props) => {
   const { id } = useParams();
 
   const nextPageHandler = (id) => {
-    if (id !== "05") {
+    if (id !== "06") {
       return "0" + `${parseInt(id) + 1}`;
     }
     return "01";
@@ -43,9 +45,11 @@ export const SingleProject = (props) => {
       ) : id === "03" ? (
         <Frontend />
       ) : id === "04" ? (
-        <Frontend />
-      ) : (
         <Backend />
+      ) : id === "05" ? (
+        <Portfolio />
+      ) : (
+        <ToDoList />
       )}
 
       <footer>

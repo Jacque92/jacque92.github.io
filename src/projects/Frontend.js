@@ -18,20 +18,14 @@ export const Frontend = () => {
         </p>
       </div>
 
-      {/* <div className="project_design">
-          <h2>Design</h2>
-          <p>
-            This project was built aming to put theory into practice by making a
-            "real-world" application with React for frontend, Redux for state
-            management, MongoDB for database.
-          </p>
-        </div> */}
       <div className="project_features part">
         <h2>Project</h2>
         <div>
           <div className="feature">
             <div className="left">
-              <h3>Random Quote Machine</h3>
+              <a href="https://front-end-projects.herokuapp.com/quoteMachine">
+                <h3>Random Quote Machine</h3>
+              </a>
               <ul>
                 <li>Quote data is fetch from API.</li>
                 <li>
@@ -57,7 +51,9 @@ export const Frontend = () => {
           </div>
           <div className="feature">
             <div className="left">
-              <h3>Markdown Previewer</h3>
+              <a href="https://front-end-projects.herokuapp.com/markdownPreviewer">
+                <h3>Markdown Previewer</h3>
+              </a>
               <ul>
                 <li>
                   Markkdown text entered in the editor on the left will be
@@ -78,7 +74,9 @@ export const Frontend = () => {
           </div>
           <div className="feature">
             <div className="left">
-              <h3>Drum Machine</h3>
+              <a href="https://front-end-projects.herokuapp.com/drumMachine">
+                <h3>Drum Machine</h3>
+              </a>
               <ul>
                 <li>
                   Audio clip will be played once the corresponding drum pad
@@ -104,7 +102,9 @@ export const Frontend = () => {
           </div>
           <div className="feature">
             <div className="left">
-              <h3>JavaScript Calculator</h3>
+              <a href="https://front-end-projects.herokuapp.com/calculator">
+                <h3>JavaScript Calculator</h3>
+              </a>
               <ul>
                 <li>Work as a real-world calculator</li>
               </ul>
@@ -122,7 +122,9 @@ export const Frontend = () => {
           </div>
           <div className="feature">
             <div className="left">
-              <h3>25 + 5 Clock</h3>
+              <a href="https://front-end-projects.herokuapp.com/clock">
+                <h3>25 + 5 Clock</h3>
+              </a>
               <ul>
                 <li>Session/Break length can be set by clicking +/- button.</li>
                 <li>
@@ -147,14 +149,6 @@ export const Frontend = () => {
           </div>
         </div>
       </div>
-      {/* <div className="techniques part">
-          <h2>techniques</h2>
-          <p>
-            This project was built aming to put theory into practice by making a
-            "real-world" application with React for frontend, Redux for state
-            management, MongoDB for database.
-          </p>
-        </div> */}
     </div>
   );
 };

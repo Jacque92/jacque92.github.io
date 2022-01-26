@@ -17,15 +17,6 @@ export const BookStore = () => {
           and the website is hosted on Heroku.
         </p>
       </div>
-
-      {/* <div className="project_design">
-        <h2>Design</h2>
-        <p>
-          This project was built aming to put theory into practice by making a
-          "real-world" application with React for frontend, Redux for state
-          management, MongoDB for database.
-        </p>
-      </div> */}
       <div className="project_features part">
         <h2>Features</h2>
         <div>
