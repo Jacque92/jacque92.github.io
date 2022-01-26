@@ -38,7 +38,7 @@ export const Backend = () => {
               }}
             >
               <img
-                src="../../public/images/timestamp.png"
+                src="public/images/timestamp.png"
                 style={{ width: "100%" }}
               ></img>
             </div>
@@ -64,7 +64,7 @@ export const Backend = () => {
               }}
             >
               <img
-                src="../../public/images/requestheader.png"
+                src="public/images/requestheader.png"
                 style={{ width: "100%" }}
               ></img>
             </div>
@@ -91,7 +91,7 @@ export const Backend = () => {
               }}
             >
               <img
-                src="../../public/images/urlshortener.png"
+                src="public/images/urlshortener.png"
                 style={{ width: "100%" }}
               ></img>
             </div>
@@ -117,7 +117,7 @@ export const Backend = () => {
               }}
             >
               <img
-                src="../../public/images/exercisetracker.png"
+                src="public/images/exercisetracker.png"
                 style={{ width: "100%" }}
               ></img>
             </div>
@@ -143,7 +143,7 @@ export const Backend = () => {
               }}
             >
               <img
-                src="../../public/images/metadata.png"
+                src="public/images/metadata.png"
                 style={{ width: "100%" }}
               ></img>
             </div>

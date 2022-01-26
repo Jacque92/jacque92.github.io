@@ -6,6 +6,7 @@ import { Work } from "./page/Work";
 import { About } from "./page/About";
 import { Contact } from "./page/Contact";
 import { SingleProject } from "./page/SingleProject";
+
 function App() {
   return (
     <div className="App">
