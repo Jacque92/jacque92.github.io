@@ -18,7 +18,7 @@ export const SingleProject = (props) => {
     }
     return "01";
   };
-  console.log(id);
+
   return (
     <div className="container project_details">
       <div className="projectHeader">
