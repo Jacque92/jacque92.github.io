@@ -14,13 +14,16 @@ export const Contact = () => {
         </h3>
         <h3>
           Connect on{" "}
-          <a href="https://www.linkedin.com/in/tiexin-zhang-480283190/">
+          <a
+            href="https://www.linkedin.com/in/tiexin-zhang-480283190/"
+            target="_blank"
+          >
             <strong>LinkedIn</strong>
           </a>
         </h3>
         <h3>
           Find my code on{" "}
-          <a href="https://github.com/Jacque92">
+          <a href="https://github.com/Jacque92" target="_blank">
             <strong>Github</strong>
           </a>
         </h3>

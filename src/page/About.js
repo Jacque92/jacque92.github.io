@@ -34,7 +34,7 @@ export const About = () => {
       <button>
         <a
           className="download"
-          href="https://drive.google.com/file/d/1Wvl2I-TEMJxnQ9RjsHqroddjAF43-ZA0/view?usp=sharing"
+          href="../Resume_Jacqueline.pdf"
           download="Jacqueline_resume"
         >
           Download Resume

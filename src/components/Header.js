@@ -27,7 +27,10 @@ export const Header = () => {
           </Link>
         </ul>
         <div className="socialLink">
-          <a href="https://www.linkedin.com/in/tiexin-zhang-480283190/">
+          <a
+            href="https://www.linkedin.com/in/tiexin-zhang-480283190/"
+            target="_blank"
+          >
             <img
               src="../images/linkedin.png"
               alt="linkedin"

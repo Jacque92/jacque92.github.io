@@ -26,12 +26,24 @@ export const SingleProject = (props) => {
           <h1>{projectData[id].name}</h1>
           <p>{projectData[id].description_short}</p>
           <div className="live_git_btn">
-            <a href={projectData[id].liveLink}>
-              <button>Live</button>
-            </a>
-            <a href={projectData[id].GithubLink}>
-              <button>Github</button>
-            </a>
+            <button>
+              <a
+                href={projectData[id].liveLink}
+                target="_blank"
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                Live
+              </a>
+            </button>
+            <button>
+              <a
+                href={projectData[id].GithubLink}
+                target="_blank"
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                Github
+              </a>
+            </button>
           </div>
         </div>
         <div className="workPicBox">
@@ -53,9 +65,14 @@ export const SingleProject = (props) => {
       )}
 
       <footer>
-        <Link to={`/work/${nextPageHandler(id)}`}>
-          <button>Next Project</button>
-        </Link>
+        <button>
+          <Link
+            to={`/work/${nextPageHandler(id)}`}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            Next Project
+          </Link>
+        </button>
       </footer>
     </div>
   );

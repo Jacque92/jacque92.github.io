@@ -16,12 +16,23 @@ export const SingleWork = ({ projectInfo, id }) => {
             <img src={img} alt="work" />
           </Link>
           <div className="live_detail_btn">
-            <a href={liveLink}>
-              <button>Live</button>
-            </a>
-            <Link to={`/work/${id}`}>
-              <button>Details</button>
-            </Link>
+            <button>
+              <a
+                href={liveLink}
+                target="_blank"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                Live
+              </a>
+            </button>
+            <button>
+              <Link
+                to={`/work/${id}`}
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                Details
+              </Link>
+            </button>
           </div>
         </div>
 
